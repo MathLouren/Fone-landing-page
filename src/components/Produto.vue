@@ -122,14 +122,13 @@ img{
     }
 
     .buy{
-        margin-top: 5px;
+        margin-top: 20px;
         display: flex;
-        align-items: flex-start;
-        flex-direction: column;
+        justify-content: flex-start;
     }
 
     .add_cart{
-        margin-top: 10px;
+        margin-left: 20px;
     }
 }
 

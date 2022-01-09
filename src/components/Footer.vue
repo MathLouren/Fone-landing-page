@@ -58,7 +58,7 @@ footer{
 
 @media(max-width:800px){
     footer{
-        margin-top: 10px;
+        margin-top: 30px;
         background: none;
     }
     .container{
@@ -67,7 +67,7 @@ footer{
 
     .container_itens{
         width: 100%;
-        padding: 5px 0;
+        padding: 15px 0;
         background-color: rgb(211, 202, 165);
     }
 }
