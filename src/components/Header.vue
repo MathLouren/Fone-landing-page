@@ -27,6 +27,7 @@ export default {
 <style>
 
 header{
+    height: 7vh;
    display: flex;
    justify-content: space-around;
    align-items: center;

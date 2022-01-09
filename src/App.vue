@@ -1,20 +1,25 @@
 <template>
   <div id="app">
     <Header />
-    <Produto />
+    <main>
+      <Produto />
+    </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue"
 import Produto from "@/components/Produto.vue"
+import Footer from "@/components/Footer.vue"
 
 
 export default {
   name: "App",
   components: {
     Header,
-    Produto
+    Produto,
+    Footer
   },
 };
 </script>
@@ -28,6 +33,22 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
+}
+
+#app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main{
+  flex: 1;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
 }
 
 ul{

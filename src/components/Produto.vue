@@ -11,10 +11,10 @@
           <p>70mm, dome type (CCAW Voice Col)</p>
           <span>Driver unit</span>
           <p>4 Hz + 100.000 Hz</p>
-          <div class="buy">
-          <span class="price">$89.99</span>
-          <button class="add_cart">ADD TO CART</button>
-      </div>
+            <div class="buy">
+                <span class="price">$89.99</span>
+                <button class="add_cart">ADD TO CART</button>
+            </div>
       </div>
   </main>
 </template>
@@ -114,6 +114,23 @@ img{
 
 .buy .add_cart:hover{
     background-color: rgb(255, 0, 51);
+}
+
+@media(max-width:800px){
+    .img_left{
+        max-width: 500px;
+    }
+
+    .buy{
+        margin-top: 5px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .add_cart{
+        margin-top: 10px;
+    }
 }
 
 </style>
