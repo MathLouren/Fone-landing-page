@@ -34,7 +34,7 @@ export default {
 footer{
     margin: auto;
     width: 100%;
-    background-color: rgb(211, 202, 165);
+    background-color: rgb(221, 210, 170);
 }
 
 .container{
@@ -58,7 +58,7 @@ footer{
 
 @media(max-width:800px){
     footer{
-        margin-top: 30px;
+        margin-top: 50px;
         background: none;
     }
     .container{
